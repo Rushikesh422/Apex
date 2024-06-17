@@ -28,3 +28,6 @@ In the hierarchy, settings for an organization are overridden by profile setting
 ---------------------------------------------------------------
 - CustomSettingName__c mc = CustomSettingName__c.getOrgDefaults();
 - CustomSettingName__c mc = CustomSettingName__c.getInstance(Profile_ID);
+
+**Help Article:**
+- https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_customsettings.htm
