@@ -21,8 +21,8 @@ In the hierarchy, settings for an organization are overridden by profile setting
 
 **Accessing a List Custom Setting**
 ---------------------------------------------------------------
-Syntax > Map<String_dataset_name, CustomSettingName__c> mcs = CustomSettingName__c.getAll();
-Example > CustomSettingName__c mc = CustomSettingName__c.getValues(data_set_name);
+> Map<String_dataset_name, CustomSettingName__c> mcs = CustomSettingName__c.getAll();
+> CustomSettingName__c mc = CustomSettingName__c.getValues(data_set_name);
 
 **Accessing a Hierarchy Custom Setting**
 ---------------------------------------------------------------
